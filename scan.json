@@ -3,7 +3,10 @@
     {
       "method": "shell.run",
       "params": {
-        "shell": "bash",
+        "shell": "{{which('bash')}}",
+        "conda": {
+          "skip": true
+        },
         "env": {
           "PINOKIO_PLATFORM": "{{platform}}"
         },
