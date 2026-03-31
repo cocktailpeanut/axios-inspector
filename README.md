@@ -2,6 +2,9 @@
 
 Axios Inspector is a Bash-based indicator-of-compromise sweep for the March 30-31, 2026 malicious `axios` npm releases. It can run as a standalone script against any root path, and the bundled Pinokio launcher simply calls that script for Pinokio home.
 
+<img width="3217" height="1809" alt="axios" src="https://github.com/user-attachments/assets/0a080114-c285-4d00-95aa-34562ac98ef7" />
+
+
 ## What It Checks
 
 - Local `node_modules/plain-crypto-js` directories under the selected scan root
@@ -9,6 +12,12 @@ Axios Inspector is a Bash-based indicator-of-compromise sweep for the March 30-3
 - Lockfiles under the selected scan root that still reference `plain-crypto-js`
 - Platform-specific RAT artifact paths reported by current incident research
 - Globally installed `axios` packages that match `1.14.1` or `0.30.4`
+
+
+https://github.com/user-attachments/assets/1f58f898-6650-4b34-9238-9e622b166c6f
+
+
+
 
 ## Main Use Case: Bash
 
