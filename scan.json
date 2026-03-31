@@ -1,0 +1,14 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "shell": "bash",
+        "env": {
+          "PINOKIO_PLATFORM": "{{platform}}"
+        },
+        "message": "bash ./scan.sh \"{{kernel.homedir}}\""
+      }
+    }
+  ]
+}
